@@ -69,6 +69,11 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 }
+#point02{
+	font-family: 'Bellefair', serif;
+	font-size:20;
+	text-align: center;
+}
 #cardpoints01{
 	font-family: 'Bellefair', serif;
 	width: 90%;

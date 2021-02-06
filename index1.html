@@ -39,7 +39,7 @@
         				<li><a href="#about">ABOUT ME</a></li>
         				<li><a href="#hobbs">MY HOBBIES</a></li>
         				<li><a href="#timetable">PUBLICATIONS</a></li>
-        				<li><a href="#proj">NOTABLE PROJECTS</a></li>
+        				<li><a href="#projectsnotable">NOTABLE PROJECTS</a></li>
         				<li><a href="docs/CV.pdf" target="_blank">MY CV</a></li>
         				<!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MY TEAM<span class="caret"></span></a>
         					<ul class="dropdown-menu">
@@ -56,9 +56,8 @@
 		</nav>
 		<div style="background-image: url(pics/pic1b.jpg);background-size: 100%;background-repeat: no-repeat;overflow:hidden;background-attachment: fixed;min-height: 1000px;"></div>
 		<div class="backgroundfix" style="background-image: url(pics/pic5.jpg)">
-			<a name="about"></a>
 			<div style="background-color: #ff3300;overflow:hidden;">
-				
+				<a name="about"></a>
 				<img class="img-responsive img-circle" src="pics/man1.jpg" alt="sorry" width="345" height="345" style="margin:50px;float:left">
 				<br><h2 class="fo" style="color: #4d0f00"><br>About Me</h2>
 				<p id="point01" style="color: #4d0f00">Hi! Welcome to my homepage!!</p>
@@ -70,15 +69,19 @@
 		<div class="backgroundfix" style="background-image: url(pics/pic2.jpg)">
 			<div style="background-color: #008080;overflow:hidden;">
 				<a name="hobbs"></a>
-				<img class="img-responsive img-thumbnail" src="pics/khas.jpeg" alt="sorry" width="345" height="345" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+				<figure class="img-responsive img-thumbnail" id="point02" alt="sorry" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);max-width: 35%;">
+					<img src="pics/Painting_by_me.jpeg" style="width: 100%;">
+					<figcaption>A canvas painting by me</figcaption>
+				</figure>				
 				<br><h2 class="fo" style="color: #fff5ee;"><br>My Hobbies</h2>
 				<ul>
 					<li id="point01" style="color: #fff5ee;">Playing chess and lawn tennis</li>
-					<li id="point01" style="color: #fff5ee;">Sleeping</li>
+					<li id="point01" style="color: #fff5ee;">Painting</li>
+					<!-- <li id="point01" style="color: #fff5ee;">Sleeping</li> -->
 					<li id="point01" style="color: #fff5ee;">Watching thriller and comedy movies, TV shows and anime</li>
 					<li id="point01" style="color: #fff5ee;">Swimming</li>
 					<li id="point01" style="color: #fff5ee;">Travelling places</li>
-					<li id="point01" style="color: #fff5ee;">Eating (I am a big foodie)</li>
+					<li id="point01" style="color: #fff5ee;">I am a big foodie and love to try out regional foods</li>
 				</ul>
 			</div>
 		</div>
@@ -170,7 +173,7 @@
 		<div class="backgroundfix" style="background-image: url(pics/pic8.jpg)">
 			<div>
 				<div style="background-image: url(backtex.jpg);background-size: 100%;background-repeat: no-repeat;overflow:hidden;">
-					<a name="proj"></a>
+					<a name="projectsnotable"></a>
 					<h1 class="proj"><br>Notable Projects</h1>
 					<h3 id="cardpoints02">
 						Here is a list of some of my notable projects. For a more complete list, please refer my <a href="docs/CV.pdf" target="_blank">CV</a>.
@@ -207,7 +210,7 @@
 						</div>
 						<a class="col-sm-6" align=center href="docs/RnD_report.pdf" target="_blank" style="text-decoration-line:none;">
 							<div align=center class="carddiv">
-								<h2 id="proj" style="text-decoration-line: underline;">Implementation of Abstract Domains for Program Verification</h2>
+								<h2 id="proj">Implementation of Abstract Domains for Program Verification</h2>
 								<p id="cardpoints">
 									Worked to develop various abstract domains used in the tool CAnalyse. The tool uses abtsract interpretation of programs to verify various assertions.
 								</p>
@@ -224,14 +227,17 @@
 								</p>
 							</div>
 						</a>
-						<div class="col-sm-6" align=center>
-							<div align=center class="carddiv">
-								<h2 id="proj">Reduction in Games played on recursion schemes</h2>
-								<p id="cardpoints">
-									
-								</p>
+						<a class="col-sm-6" align=center href="docs/Report_TUB.pdf" target="_blank" style="text-decoration-line:none;">
+							<div class="carddiv" align=center>
+								<!-- <div align=center class="carddiv"> -->
+									<h2 id="proj">Reduction in Games played on recursion schemes</h2>
+									<p id="cardpoints">
+										Worked on the reduction of parity games to safety games played on higher order recursion schemes (HORS), 
+										using similar results on reduction in games played on collapsible pushdown automata (CPDA).
+									</p>
+								<!-- </div> -->
 							</div>
-						</div>
+						</a>
 					</div>
 					<div class="row">
 						<div class="col-sm-6" align=center>
@@ -253,17 +259,22 @@
 					</div>
 				</div>
 				<div style="min-height:500">
-					<div  align=right>
-						<h2 class="contme">EASHAN GUPTA</h2>
-						<h4 class="contme">160050045</h4>
-						<h3 class="contme">2<sup>nd</sup> year B.Tech CSE, IITB</h3>
-						
-						<a href="https://www.facebook.com/eashan.gupta.50/" title="Facebook" target="_blank">
-							<i class="fa fa-facebook-square" style="font-size:48px;color:#3b5998;margin-right: 3px;"></i>
+					<div  align=right class="contme">
+						<a name="contact"></a>
+						<h2>EASHAN GUPTA</h2>
+						<!-- <h4 class="contme">160050045</h4> -->
+						<!-- <h3 class="contme">B.Tech CSE, IITB</h3> -->
+						<a href="https://www.facebook.com/eashan.gupta.50/" title="Facebook" class="contme" target="_blank">
+							<i class="fa fa-facebook-square" style="font-size:48px;color:#3b5998;"></i>
 						</a>
-						<i class="fa fa-google" style="font-size:48px;color:red;margin-right: 3px" title="gupta.eashan@gmail.com"></i>
-						<i class="fa fa-building" style="font-size:48px;color:black;margin-right: 3px;" title="Room no.17,H5"></i>
-						<i class="fa fa-phone-square" style="font-size:48px;color:darkcyan;margin-right: 3px;" title="Ph.:9999999999"></i>
+						<a href="mailto:gupta.eashan@gmail.com" target="_blank">
+							<i class="fa fa-google" style="font-size:48px;color:red;" title="gupta.eashan@gmail.com"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/eashan-gupta-2744b419b" target="_blank">
+							<i class="fa fa-linkedin" style="font-size:48px;" title="LinkedIn"></i>
+						</a>
+						<!-- <i class="fa fa-building" style="font-size:48px;color:black;margin-right: 3px;" title="Room no.17,H5"></i> -->
+						<!-- <i class="fa fa-phone-square" style="font-size:48px;color:darkcyan;margin-right: 3px;" title="Ph.:9999999999"></i> -->
 					</div>
 					<div align=left class="row">
 						<div class="col-sm-7"></div>
